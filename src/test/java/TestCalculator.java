@@ -5,7 +5,7 @@ public class TestCalculator {
     Calculator calculator = new Calculator();
     @Test
     public void testAdd() {
-        assertEquals(calculator.add(1.0 , 2.0), 3);
+        assertEquals(calculator.add(1.0 , 2.0), 1);
     }
 
     @Test
